@@ -1,6 +1,7 @@
 import numpy as np
 import math
 
+##VARIABLES MEANING
 # r0 : radius of the spherical island
 # mu : surface chemical potential for InAs
 # mu_0 : surface chemical potential for unstressed InAs surface
