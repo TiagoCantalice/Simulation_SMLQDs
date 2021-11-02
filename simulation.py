@@ -18,7 +18,6 @@ import math
 # T: growth temperature
 # F: In flux
 # W: strain strength
-# z0: range of correlation 
 # Omega_InAs: atomic volume of InAs 
 # Omega_GaAs: atomic volume of GaAs
 # B_InAs : Bulk modulus of InAs
@@ -36,8 +35,7 @@ import math
 # D/(kb*T): is the mobility of the In adatmos
 # tal : time for incorporation outside the islands
 # n(+-d/2) : adatom concentration at the boundaries x = +- d/2
-# z0 : characteristic length
-# A : 
+# z0 : characteristic spacer layer thickness below which a vertically self-organized growth occurs
 
 def Q(l, d, Ld):
     return (l-d)/(2*Ld)
